@@ -40,5 +40,5 @@ jobs:
       - name: gcc
         run: |
           sudo apt-get install -y clang cmake
-          sh run_clang.sh
+          sh run_llvm.sh
 
