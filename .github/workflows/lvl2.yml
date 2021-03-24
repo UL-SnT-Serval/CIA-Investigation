@@ -1,0 +1,19 @@
+name: Python test
+
+on:
+  push:
+    paths:
+      - "lvl2/**"
+
+defaults:
+  run:
+    working-directory: lvl2  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: run hello world
+      run: python main.py

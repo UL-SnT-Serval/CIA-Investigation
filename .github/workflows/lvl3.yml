@@ -1,0 +1,25 @@
+name: Python test
+
+on:
+  push:
+    branches: [ main ]
+defaults:
+  run:
+    working-directory: lvl3  
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Test with unittest
+      run: |
+        python -m unittest -v

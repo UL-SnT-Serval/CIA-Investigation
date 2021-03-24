@@ -1,20 +1,17 @@
-# Level 3
-## Path To Glory
+# Level 2
+## Pick a side
 
 * Programming Language: **Python**
-* Difficulty: Medium
+* Difficulty: Easy
 
 ## Context
-You port the level 1 program to python, eveythings works fine congrats.
-To evaluate your implementation with longer list you put everything random number in a huge file.
-You ran the test and eeverything work. 
-Your colleague ask to see it, but he tells you that tests are failing on his side.
-Intrigued, you setup an environment corresponding to his own and realize that he is right?
+You just decided to learn python congrats!
+After experimenting online, you are ready to run it on your machine, but it doesn't execute.
 
 
 **Can you guess, what is going on?**
 
-**Can you modify the code to make run on both of your system ?**
+**Can you modify the code to make it executable ?**
 
 # CI/CD python example
 
@@ -29,7 +26,7 @@ It is recommended to clone the project on your local machine, work from there an
 
 ```
 cd <project_directory>
-python src/main.py
+python main.py
 ```
 
 
