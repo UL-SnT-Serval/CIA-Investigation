@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "lvl3/**"
+  workflow_dispatch:
 
 defaults:
   run:
