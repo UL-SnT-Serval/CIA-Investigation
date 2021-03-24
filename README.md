@@ -18,7 +18,7 @@ Will you be able to solve the riddle ? It is up to you!
 
 * [lvl1 - Java (*difficulty: Easy*)](lvl1/README.md)
 * [lvl2 - Python (*difficulty: Easy*)](lvl2/README.md)
-* [lvl3 - Python (*difficulty: Easy*)](lvl3/README.md)
+* [lvl3 - Python (*difficulty: Medium*)](lvl3/README.md)
 * [lvl4 - C (difficulty: Hard)](lvl4/README.md)
 
 ## Authors
