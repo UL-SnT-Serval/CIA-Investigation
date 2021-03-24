@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Lvl 1 - A tale of Legacy
 
 on:
   push:
