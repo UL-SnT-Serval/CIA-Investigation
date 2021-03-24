@@ -1,0 +1,14 @@
+# Level 3
+## Legacy's version
+
+* Programming Language: **Java**
+* Difficulty: Easy
+
+## Context
+
+You wrote a niece piece of Java code  and your tests indicates that everything is fine, but when your partner test it on her old laptop,
+the program is not even compiling. Surprise you configure a CI workflow simulating your partner's environment and realize that it is indeed failing.
+
+**Can you guess, what is going on?**
+
+**Can you modify the code to make it compile ?**

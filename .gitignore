@@ -3,3 +3,6 @@
 */hello
 */CMakeCache.txt
 */CMakeFiles
+*.classpath
+*.project
+*.settings
