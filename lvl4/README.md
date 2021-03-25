@@ -24,7 +24,7 @@ Your objective is to make the build and test succeed on the CI/CD integrated in 
 
 ### Run the program on my local machine
 
-You will require a linux environment with gcc and clang installed.
+You will require a linux environment with gcc, clang and cmake installed.
 
 ```
 cd <project_directory>
