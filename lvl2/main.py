@@ -1,9 +1,17 @@
+from dataclasses import dataclass
 
+@dataclass(order=True)
+class Employee:
+    name: str
+    age: int
+    minimumSalary: float = 5000
+
+    def somefunc(self):
+      pass
 
 def main():
-    for x in range(1,5):
-        print("hello world !")
-    assert 6/4 == 1.5
+    print(Employee('Jean',20))
+    
 
 
 

@@ -1,5 +1,5 @@
 # Level 2
-## Pick a side
+## Feeling old
 
 * Programming Language: **Python**
 * Difficulty: Easy

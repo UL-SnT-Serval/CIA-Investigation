@@ -1,4 +1,4 @@
-name: Lvl 2 -Pick a side
+name: Lvl 2 -Feeling old
 
 on:
   push:
@@ -12,9 +12,14 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-20.04
 
     steps:
     - uses: actions/checkout@v2
+    - name: Setup Python
+      uses: actions/setup-python@v3.1.3
+      with:
+        python-version: 3.5.9
+   
     - name: run hello world
       run: python main.py
